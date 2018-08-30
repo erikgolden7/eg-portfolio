@@ -196,3 +196,12 @@
   background-size: cover;
   z-index: 99;
 }
+
+.text-page-item {
+  text-align: center;
+}
+
+.text-page-image {
+  width: 100px;
+  height: 100px;
+}
