@@ -1,5 +1,4 @@
 $(function() {
-  // ---------------------------------------------- //
   // Navbar
   // ---------------------------------------------- //
 
@@ -11,7 +10,6 @@ $(function() {
     }
   });
 
-  // ---------------------------------------------- //
   // Scroll Spy
   // ---------------------------------------------- //
 
@@ -20,8 +18,7 @@ $(function() {
     offset: 80
   });
 
-  // ---------------------------------------------- //
-  // Preventing URL update on navigation link click
+  // Prevents URL update on navigation link click
   // ---------------------------------------------- //
 
   $('.navbar-nav a, #scroll-down').bind('click', function(e) {
@@ -39,5 +36,4 @@ $(function() {
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', '../particles.json');
-particlesJS.load('particles-js1', '../particles.json');
+particlesJS.load('particles-js', '../../particles.json');

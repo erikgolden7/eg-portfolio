@@ -1,14 +1,16 @@
 const express = require('express');
-const { json } = require('body-parser');
-const cookieParser = require('cookie-parser');
+const cors = require('cors');
 const port = 8083;
+const path = require('path');
 
-const app = (module.exports = express());
-
-app.use(json());
-app.use(cookieParser());
+const app = express();
+app.use(cors());
 
 app.use(express.static(__dirname + '/public'));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
 
 app.listen(port, function() {
   console.log(`listening to port: ${port}`);

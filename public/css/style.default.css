@@ -1,17 +1,7 @@
 /* 
-========================================= 
-========================================= 
-
-Bootstrapious Boilerplate Template
-
-========================================= 
-========================================= */
-/*
-*
 * =====================
 * GENERAL
 * =====================
-*
 */
 .text-bold {
   font-weight: 700;
@@ -105,6 +95,7 @@ NAVBAR
 =====================
 *
 */
+
 nav.navbar {
   background: #fff;
   padding-top: 0;
@@ -150,6 +141,7 @@ INTRO SECTION
 =====================
 *
 */
+
 .intro {
   position: relative;
   width: 100%;
@@ -204,6 +196,7 @@ SKILLS SECTION
 =====================
 *
 */
+
 .skills .box {
   margin-top: 20px;
 }
@@ -216,21 +209,11 @@ SKILLS SECTION
 /*
 *
 =====================
-MAP SECTION
-=====================
-*
-*/
-#map {
-  height: 600px;
-}
-
-/*
-*
-=====================
 CONTACT SECTION
 =====================
 *
 */
+
 .contact-form {
   margin-bottom: 40px;
 }
@@ -244,11 +227,11 @@ p.social a {
   margin: 0 10px 0 0;
   color: #fff;
   display: inline-block;
-  width: 38px;
-  height: 38px;
-  border-radius: 19px;
-  line-height: 38px;
-  font-size: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 44px;
+  font-size: 25px;
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -280,68 +263,13 @@ p.social a.email {
   background-color: #b02318;
 }
 
-/*
-*
-=====================
-FOOTER
-=====================
-*
-*/
-footer {
-  padding: 20px 0;
-}
-
-.copyright {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  color: #eee;
-  font-style: italic;
-}
-
-.copyright p.credit {
-  text-align: right;
-}
-
-.copyright p.credit a {
-  color: #eee;
-}
-
-/*
-
-=====================
-STYLE SWITCHER FOR DEMO
-=====================
-
-*/
-#style-switch-button {
-  position: fixed;
-  top: 120px;
-  left: 0px;
-  border-radius: 0;
-  z-index: 2;
-}
-
-#style-switch {
-  width: 300px;
-  padding: 20px;
-  position: fixed;
-  top: 160px;
-  left: 0;
-  background: #fff;
-  border: solid 1px #ced4da;
-  z-index: 2000;
-}
-
-#style-switch h4 {
-  color: #555;
-}
-
 /* =========================================
    THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
 /*
  * 1. NAVBAR
  */
+
 .navbar {
   padding: 0.5rem 1rem;
 }
@@ -449,6 +377,7 @@ STYLE SWITCHER FOR DEMO
 /*
  * 2. BUTTONS
  */
+
 .btn {
   font-weight: 400;
   border: 1px solid transparent;
@@ -1162,7 +1091,8 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: 'Cardo', 'Times New Roman', Times, serif;
+  /* font-family: 'Cardo', 'Times New Roman', Times, serif; */
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
