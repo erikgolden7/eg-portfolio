@@ -22,10 +22,6 @@ JavaScript
 
 Apart from the Bootstrap JS components, the majority of JS is located in /js/front.js. 
 
-Google Map
-----------
-
-To make the Google map work on your site, you have to generate the Google Maps API key and replace it in the code. For more info have a look at my tutorial at https://bootstrapious.com/p/google-maps-and-bootstrap-tutorial.
 
 Contact Form
 ----------
