@@ -37,3 +37,7 @@ $(function() {
     e.preventDefault();
   });
 });
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', '../particles.json');
+particlesJS.load('particles-js1', '../particles.json');
