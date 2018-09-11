@@ -205,3 +205,13 @@
   width: 100px;
   height: 100px;
 }
+
+@media (max-width: 1024px) {
+  .modal-body {
+    padding: 1rem;
+  }
+
+  .portfolio-modal .modal-dialog {
+    max-width: 100%;
+  }
+}
