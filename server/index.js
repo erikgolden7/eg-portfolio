@@ -29,13 +29,17 @@ app.post('/send-email', function(req, res) {
     from: `${req.body.name} ${req.body.surname} <${req.body.email}>`,
     to: `Erik Golden <${process.env.GMAIL_USER}>`,
     subject: req.body.subject,
-    text: req.body.message,
-    html: req.body.message
+    // text: req.body.message
+    html: `<h2>Message from portfolio website</h2> <p>Contact Name: ${
+      req.body.name
+    } ${req.body.surname}</p> <p>Contact Email: ${
+      req.body.email
+    }</p> </br> <p>${req.body.message}</p>`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      res.render('contact-failure');
+      return console.log(error);
     } else {
       res.redirect(process.env.HOME_REDIRECT || 'http://localhost:3001/');
     }
