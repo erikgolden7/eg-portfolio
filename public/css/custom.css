@@ -168,12 +168,29 @@
   height: 40px;
 }
 
-.test-img {
-  background: url('https://s3-us-west-1.amazonaws.com/erikgoldenbucket/portfolio/ikmTest.png') center no-repeat;
-  background-size: contain;
-  width: 500px;
+.test {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.test-img1,
+.test-img2 {
+  width: 550px;
   height: 500px;
-  margin-top: 10px;
+}
+
+.test-img1 {
+  background: url('https://s3-us-west-1.amazonaws.com/erikgoldenbucket/portfolio/ikmTest-portfolio.png') center
+    no-repeat;
+  background-size: contain;
+}
+
+.test-img2 {
+  background: url('https://s3-us-west-1.amazonaws.com/erikgoldenbucket/portfolio/IKM_test_frontDEv-portfolio.png')
+    center no-repeat;
+  background-size: contain;
 }
 
 .contact-text {
