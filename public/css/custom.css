@@ -62,11 +62,6 @@
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
 
 .portfolio-modal .modal-dialog {
   max-width: 60%;
@@ -216,6 +211,27 @@
 .text-page-image {
   width: 100px;
   height: 100px;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .test-img1,
+  .test-img2 {
+    width: 100%;
+    height: 300px;
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 1024px) {
