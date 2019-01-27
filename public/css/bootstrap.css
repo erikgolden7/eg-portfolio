@@ -39,7 +39,7 @@ section {
   height: 100%;
   left: 0;
   top: 0;
-  background: #000;
+  background: rgba(228, 206, 179, 0.822);
   z-index: 2;
   opacity: 0.6;
 }
@@ -384,16 +384,14 @@ p.social a.email {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0rem;
-  -webkit-transition: color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .btn:focus,
@@ -1607,13 +1605,10 @@ a.text-dark:focus {
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 0rem;
-  -webkit-transition: border-color 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .form-control::-ms-expand {
@@ -1761,16 +1756,12 @@ select.form-control-lg:not([size]):not([multiple]) {
   display: block;
 }
 
-.was-validated
-  .custom-control-input:valid:checked
-  ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before,
 .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #34ce57;
 }
 
-.was-validated
-  .custom-control-input:valid:focus
-  ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
   -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
@@ -1878,16 +1869,12 @@ select.form-control-lg:not([size]):not([multiple]) {
   display: block;
 }
 
-.was-validated
-  .custom-control-input:invalid:checked
-  ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before,
 .custom-control-input.is-invalid:checked ~ .custom-control-label::before {
   background-color: #e4606d;
 }
 
-.was-validated
-  .custom-control-input:invalid:focus
-  ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
   -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
